@@ -1,8 +1,16 @@
-// import $ from 'jquery';
+import $ from 'jquery';
 
- const exampleTestFunction = () => {
-  console.log('hi there, from the deck');
-  return 'hi there, from the deck';
+class Character {
+   constructor(strength,knowledge,command) {
+     this.strength = strength ;
+     this.knowledge = knowledge;
+     this.command = command;
+     
+   }
+
+  // return 'hi there, from the deck';
 };
 
-export default exampleTestFunction;
+export default Character;
+
+
